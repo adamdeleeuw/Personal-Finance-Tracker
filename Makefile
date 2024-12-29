@@ -1,10 +1,7 @@
-CC = gcc                          # Assigns CC to the GNU Compiler Collection
-CFLAGS = -Wall -Wextra -Werror    # Compiler flags:
-                                  # -Wall: Enables all compiler warnings
-                                  # -Wextra: Enables additional warnings
-                                  # -Werror: Treats warnings as errors
-TARGET = finance_tracker          # Name of the executable to be generated
-SRC = main.c user.c transaction.c # Source files to be compiled
+CC = gcc
+CFLAGS = -Wall -Wextra -Werror
+TARGET = finance_tracker
+SRC = src/main.c src/user.c src/transactions.c
 
 # Default target: Builds the executable
 all: $(TARGET)
@@ -15,4 +12,4 @@ $(TARGET): $(SRC)
 
 # Clean target: Removes the compiled executable
 clean:
-	rm -f $(TARGET)               # Removes the .exe or binary file
+	rm -f $(TARGET)
