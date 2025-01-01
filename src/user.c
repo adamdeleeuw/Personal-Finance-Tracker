@@ -1,10 +1,12 @@
 #include "../include/user.h"
 #include <stdio.h>
 #include <string.h>
-#define USER_FILE "../data/users.txt"
+#define USER_FILE "data/users.txt"
+
 
 // logs existing users in
 int login(char username[], char password[]){
+
     FILE *userFile = fopen(USER_FILE, "r");
     if(userFile == NULL){
         printf("Error opening file\n");
@@ -34,7 +36,6 @@ int signUp(char username[], char password[]){
         return 0;
     }
     
-
     //check if username already exists
     char file_username[50];
     char file_password[50];
