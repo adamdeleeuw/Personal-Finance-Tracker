@@ -1,15 +1,21 @@
+# Compiler and flags
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror
-TARGET = finance_tracker
+CFLAGS = -Wall -Wextra -Werror 
+
+# Source files
 SRC = src/main.c src/user.c src/transactions.c
+OBJ = $(SRC:.c=.o)
+EXEC = finance_tracker
 
-# Default target: Builds the executable
-all: $(TARGET)
+# Build rules
+all: $(EXEC)
 
-# Rule for building the target
-$(TARGET): $(SRC)
-	$(CC) $(CFLAGS) -o $(TARGET) $(SRC)
+$(EXEC): $(OBJ)
+	$(CC) $(OBJ) -o $(EXEC) $(LDFLAGS)
 
-# Clean target: Removes the compiled executable
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Clean rule
 clean:
-	rm -f $(TARGET)
+	rm -f $(OBJ) $(EXEC)
