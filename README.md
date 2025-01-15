@@ -2,7 +2,7 @@
 
 ## 🚀 **Project Status Update (January 2025)**
 I started this project during **Winter Break 2024** as a way to enhance my **C programming skills** while building a useful personal finance tool. However, as of January 2025, I am currently enrolled in **seven rigorous courses** at the University of British Columbia:
-- **MATH 100, MATH 101, MATH 152** (Mathematics)
+- **MATH 101, MATH 152** (Mathematics)
 - **PHYS 158, PHYS 159, PHYS 170** (Physics)
 - **APSC 101** (Applied Science)
 - **WRDS 150B** (Writing and Communication)
