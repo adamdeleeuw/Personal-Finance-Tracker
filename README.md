@@ -1,6 +1,7 @@
 # 📊 Personal Finance Tracker
 
 ## 🚀 **Project Status Update (January 2025)**
+
 I started this project during **Winter Break 2024** as a way to enhance my **C programming skills** while building a useful personal finance tool. However, as of January 2025, I am currently enrolled in **seven courses** at the University of British Columbia:
 - **MATH 152, MATH 101** (Mathematics)
 - **PHYS 158, PHYS 159, PHYS 170** (Physics)
