@@ -1,7 +1,7 @@
 # 📊 Personal Finance Tracker
 
 ## 🚀 **Project Status Update (January 2025)**
-I started this project during **Winter Break 2024** as a way to enhance my **C programming skills** while building a useful personal finance tool. However, as of January 2025, I am currently enrolled in **seven rigorous courses** at the University of British Columbia:
+I started this project during **Winter Break 2024** as a way to enhance my **C programming skills** while building a useful personal finance tool. However, as of January 2025, I am currently enrolled in **rigorous courses** at the University of British Columbia:
 - **MATH 152, MATH 101** (Mathematics)
 - **PHYS 158, PHYS 159, PHYS 170** (Physics)
 - **APSC 101** (Applied Science)
@@ -22,8 +22,8 @@ The purpose of this **Personal Finance Tracker** is to **analyze my income and e
 ✔ Learn how to **use a Makefile** for compilation  
 ✔ Improve my **Git and GitHub workflow**  
 ✔ Implement **a secure login system**  
-✔ (Future) Integrate **PDF data extraction (MuPDF - Removed)**  
-✔ (Future) Develop a **simple GUI using GTK+ or SDL2**  
+✔ Integrate **data extraction from images (Tesseract OCR)**  
+✔ Develop a **simple GUI using GTK+ or SDL2**  
 
 This project started as a **C-based CLI application**, but I plan to **expand it into a web or mobile app** in the future, incorporating **machine learning for spending analysis**.
 
